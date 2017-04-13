@@ -3,8 +3,8 @@
 # Quickstart
 
 -   Make sure lein and a JVM are installed
--   Run \`\`lein sass watch'' to compile css whenever updated
--   Run \`\`lein figwheel'' to start the server
+-   Run `lein sass watch` to compile css whenever updated
+-   Run `lein figwheel` to start the server
 -   By default it will be available on localhost:3449
 
 
