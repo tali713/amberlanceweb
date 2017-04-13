@@ -2,20 +2,20 @@
 
 # Quickstart
 
--   Make sure lein and a jvm are installed
--   run \`\`lein sass watch'' to compile css whenever updated
--   run leinfigwheel to start the server
--   by default it will be available on localhost:3449
+-   Make sure lein and a JVM are installed
+-   Run \`\`lein sass watch'' to compile css whenever updated
+-   Run \`\`lein figwheel'' to start the server
+-   By default it will be available on localhost:3449
 
 
-# Recomended
+# Recommended
 
 
 ## Emacs
 
-Emacs can make working in clojure and lisp languages much more
-pleasent, however any editor will work with figwheel, since it is
-triggered by file changes.
+Emacs can make working in Clojure and other lisp family languages
+much more pleasant, however any editor will work with figwheel,
+since it is triggered by file changes.
 
 
 ### Packages
