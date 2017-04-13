@@ -80,6 +80,8 @@
    :ring-handler amberlanceweb.handler/app}
 
 
+  :sass {:src "src/sass"
+         :dst "resources/public/css"}
 
   :profiles {:dev {:repl-options {:init-ns amberlanceweb.repl
                                   :nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}
@@ -95,7 +97,8 @@
 
                    :source-paths ["env/dev/clj"]
                    :plugins [[lein-figwheel "0.5.9"]
-                             ]
+                             
+                             [lein-sassy "1.0.7"]]
 
                    :injections [(require 'pjstadig.humane-test-output)
                                 (pjstadig.humane-test-output/activate!)]
