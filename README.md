@@ -39,5 +39,5 @@ the following to your .emacs
     (dolist (hook '(eldoc-mode
                     paredit-mode prettify-symbols-mode
                     highlight-parentheses-mode aggressive-indent-mode))
-      (add-hook clojure-mode-hook))
+      (add-hook 'clojure-mode-hook hook))
 
