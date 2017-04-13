@@ -36,7 +36,6 @@ the following to your .emacs
 
 ### Suggested hook if above packages are installed
 
-    (dolist (hook '(eldoc-mode paredit-mode
-                    prettify-symbols-mode highlight-parentheses-mode))
+    (dolist (hook '(eldoc-mode paredit-mode prettify-symbols-mode highlight-parentheses-mode))
       (add-hook 'clojure-mode-hook hook))
 
