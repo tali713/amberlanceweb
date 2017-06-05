@@ -24,8 +24,7 @@ If you have not already added melpa-stable to your package archive add
 the following to your .emacs
 
     (load-library "package")
-    (add-to-list 'package-archives
-                 '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+    (add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
     (package-initialize)
 
 -   **cider:** Allows you to connect to a clojure session

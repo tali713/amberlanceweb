@@ -15,4 +15,5 @@ pom.xml.asc
 /.env
 *~
 /webdump
-/resources/public/css
+/resources/public
+.DS_Store

@@ -1,0 +1,9 @@
+* Podcast Hosting
+** Uptime
+** Reliable Data Storage
+** Logistics
+** Integration with
+   - iTunes
+   - Android
+   - eMail
+   - RSS
